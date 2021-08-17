@@ -9,47 +9,48 @@
     <link rel="stylesheet" href="/Stylesheet/style.css">
 </head>
 
-<body>
-    <div>
-        <header>
-            <nav>
-                <div>
-                    <h1>Diane Jones</h1>
-                    <p>Bio goes here</p>
-                </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="aboutme.html">About me</a></li>
-                    <li><a href="work.html">Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <h1>Title</h1>
-            <p>Description goes here</p>
-            <img src="#">
+<body>   
+    <header class="header">
+        <a href="" class="logo">Diane Jones</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="work.html">Work</a></li>
+        </ul>   
+   </header>
+   <hr>
+    <section class="titlefeat">
+        <h1>Title Featured Case Study</h1>
+        <p>Description goes here</p>
+        <img src="/assets/woman.png" class="featimg">
 
+    </section>
+    <footer id="foot">
+        <p class="connect">Let's connect!</p>
+        <section>            
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="https://image.flaticon.com/icons/png/512/174/174857.png" class="icons" alt="Linkedin"></a>
+            <a href="https://www.google.com/gmail/about/#" target="_blank">
+                <img src="https://cdn.icon-icons.com/icons2/730/PNG/512/gmail_icon-icons.com_62758.png"
+                    class="icons" alt="Gmail"></a>
+            <a href="https://medium.com/" target="_blank">
+                <img src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png" alt="Medium" width="40%"></a>
         </section>
-        <footer>
-            <section>
-                <a href="https://www.linkedin.com/" target="_blank">
-                    <img src="https://image.flaticon.com/icons/png/512/174/174857.png" class="icons" alt="Linkedin"></a>
-                <a href="https://www.google.com/gmail/about/#" target="_blank">
-                    <img src="https://cdn.icon-icons.com/icons2/730/PNG/512/gmail_icon-icons.com_62758.png"
-                        class="icons" alt="Gmail"></a>
-                <a href="https://medium.com/" target="_blank">
-                    <img src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png" alt="Medium" height="50"
-                        width="150"></a>
-            </section>
-            <p>Designed by Codebusters.</p>
-        </footer>
-    </div>
-    <button class="navbar__opener" data-reactid="10">
-        <span data-reactid="11"></span>
-        <span data-reactid="12"></span>
-        <span data-reactid="13"></span>
-        <span data-reactid="14"></span>
-    </button>
+        <p class="footp">Designed by Codebusters.</p>
+        <div id="divOneFoot">
+            <div>
+                <svg preserveAspectRatio="none" data-bbox="1.6 15.8 56.8 28.4" viewBox="1.6 15.8 56.8 28.4" role="presentation" aria-hidden="true">
+                    <g>
+                        <path d="M30 15.8c-15.7 0-28.4 12.7-28.4 28.4h56.8c0-15.7-12.7-28.4-28.4-28.4z"></path>
+                    </g>
+                </svg>
+            </div>
+        </div> 
+    </footer>
+
+    
 
 
 </body>
