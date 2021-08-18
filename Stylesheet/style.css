@@ -155,9 +155,34 @@ p {
   text-align: center;
 }
 
+.menu {
+  float: right;
+}
+
 .featimg {
   border-radius: 20px;
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.feat-btn {
+  width: 25vw;
+  height: 10vw;
+  display: flex;
+  align-self: flex-end;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  background-color: rgb(236, 145, 9);
+  border-radius: 12px;
+  margin-bottom: 1vh;
+  border: 1px solid black;
+}
+
+.feat-btn:hover {
+  background-color: cornflowerblue;
+  color: white;
 }
 
 footer {
@@ -213,6 +238,12 @@ footer > section {
 
 .copyright {
   width: 10%;
+}
+
+.menu > li > a {
+  background-color: rgb(97, 238, 32, 0.5);
+  width: 45vw;
+  text-align: center;
 }
 
 /* 48em = 768px */
