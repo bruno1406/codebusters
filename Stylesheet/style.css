@@ -15,14 +15,14 @@ body {
 }
 
 .header {
-  background-image: url(/assets/woman.png);
+  background-image: url(/assets/test.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 3;
   width: 100vw;
-  height: 15vh;
+  height: 18vh;
   display: flex;
   justify-content: space-between;
 }
@@ -264,6 +264,32 @@ footer > section {
   background-color: rgb(97, 238, 32, 0.5);
   width: 25vw;
   text-align: center;
+}
+
+.aboutdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aboutdiv > section {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.aboutdiv-img1 {
+  width: 90vw;
+  display: flex;
+  align-self: center;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid rgb(255, 199, 255);
+  box-shadow: 2px 0 0.4em rgb(7, 3, 0);
+}
+
+.aboutdiv p {
+  width: 90vw;
 }
 
 /* 48em = 768px */
