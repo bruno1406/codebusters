@@ -10,14 +10,19 @@
 
 <body>
     <header class="header">
-        <a href="" class="logo">Diane Jones</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="work.html">Work</a></li>
-        </ul>
+        <div class="logo">
+            <h3>Diana Jones</h3>
+            <p>This is the Bio</p>   
+        </div>
+        <div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="work.html">Work</a></li>
+            </ul>
+        </div>
     </header>
     
     <hr>
@@ -26,7 +31,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <hr>
         <div class="featimg">
-            <button class="feat-btn">Read More</button>
+            <button onclick="window.location.href='/work.html'" class="feat-btn">Read More</button>
         </div>
     </section>
     <div id="divOneFoot">

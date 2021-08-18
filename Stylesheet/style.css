@@ -22,6 +22,9 @@ body {
   position: fixed;
   z-index: 3;
   width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header ul {
@@ -43,6 +46,17 @@ body {
   background-color: #f4f4f4;
 }
 
+.header > .logo > p {
+  font-size: medium;
+  text-align: left;
+}
+
+.header > .logo > h3 {
+  text-align: left;
+  vertical-align: middle;
+  display: inline;
+}
+
 .header .logo {
   display: block;
   float: left;
@@ -55,6 +69,12 @@ body {
   background-color: rgb(235, 97, 17, 0.3);
   padding: 1px;
   border-radius: 5rem;
+  margin: 0;
+  margin-top: 1vh;
+  padding: 0;
+  display: flex;
+  align-self: flex-start;
+  height: 5vh;
 }
 
 /* menu */
@@ -242,7 +262,7 @@ footer > section {
 
 .menu > li > a {
   background-color: rgb(97, 238, 32, 0.5);
-  width: 45vw;
+  width: 25vw;
   text-align: center;
 }
 
