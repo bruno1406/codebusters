@@ -1,12 +1,17 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: silver;
+  background-color: rgb(247, 199, 199);
+}
+
+.container {
+  position: relative;
 }
 
 .header {
@@ -15,8 +20,8 @@ body {
   background-size: cover;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
-  width: 100%;
   z-index: 3;
+  width: 100vw;
 }
 
 .header ul {
@@ -127,13 +132,27 @@ body {
 }
 
 .icons {
-  width: 60%;
+  width: 10vw;
 }
 
 .titlefeat {
   display: flex;
   flex-direction: column;
-  margin: 5% 5% 20% 5%;
+  justify-content: space-between;
+}
+
+.featimg {
+  background-image: url("/assets/woman.png");
+  width: 90vw;
+  height: 20vh;
+  background-size: cover;
+  display: flex;
+  align-self: center;
+}
+
+h1,
+p {
+  text-align: center;
 }
 
 .featimg {
@@ -143,21 +162,31 @@ body {
 
 footer {
   width: 100vw;
+  background-image: url("/assets/semicircle.png");
+  background-size: cover;
 }
 
 footer > section {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: center;
+  width: 100vw;
+}
+
+.mediumfoot {
+  filter: contrast(10%);
+  width: 30vw;
 }
 
 .footp {
   width: auto;
-  max-width: 100%;
-  background-color: sandybrown;
   text-align: center;
   font-style: italic;
   padding: 8px;
+  color: white;
+  margin: 0;
+}
+
+#foot {
 }
 
 .connect {
@@ -166,6 +195,7 @@ footer > section {
   text-align: center;
   font-style: normal;
   padding: 8px;
+  color: white;
 }
 
 #divOneFoot {
@@ -179,6 +209,10 @@ footer > section {
   grid-area: 18 / 1 / 23 / 2;
   justify-self: start;
   align-self: start;
+}
+
+.copyright {
+  width: 10%;
 }
 
 /* 48em = 768px */
