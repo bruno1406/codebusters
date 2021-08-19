@@ -349,6 +349,9 @@ footer > section {
 /* 48em = 768px */
 
 @media (min-width: 500px) {
+  .testpraveena{
+    color-adjust: none;
+  }
   .menu > li > a {
     background-color: transparent;
     color: black;
