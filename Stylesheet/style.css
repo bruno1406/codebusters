@@ -349,12 +349,11 @@ footer > section {
 /* 48em = 768px */
 
 @media (min-width: 500px) {
-  .testpraveena{
-    color-adjust: none;
-  }
+ 
   .menu > li > a {
     background-color: transparent;
     color: black;
+    width:15vw;
     font-size: 2.5rem;
   }
   body {
@@ -382,6 +381,84 @@ footer > section {
 
   .mediumfoot {
     width: 20rem;
+  }
+  .header.logo{
+  font-size: 2em;
+  padding: 20px 30px;
+  }
+  .logo{
+    margin-top: 2vh;
+    height: 7vh;
+  }
+   .aboutdiv > .right1{
+   
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    margin-top: 5vh;
+    font-size: 1em;
+    line-height: 24px;
+    align-items: center;
+   
+  }
+  .aboutdiv > .right1 > p{
+    padding-right: 3rem;
+    font-size: 18px;
+    font-display:inherit;
+  
+  }
+  .aboutdiv > .left > p{
+    padding-left: 3rem;
+    font-size: 18px;
+    font-display:inherit;
+  
+  }
+  .aboutdiv > .right2 > p{
+    padding-right: 3rem;
+    font-size: 18px;
+    font-display:inherit;
+  
+  }
+  .aboutdiv > .right1 > img{
+    height: 350px ;
+    width: 350px;
+  }
+   .aboutdiv > .right2 > img{
+     height: 350px ;
+     width: 350px;
+   }
+   .aboutdiv > .left > img{
+    height: 350px ;
+    width: 350px;
+  }
+ 
+  .aboutdiv > .left{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 8vh;
+    font-size: 1em;
+    line-height: 24px;
+    align-items: center;
+   
+  }
+  .aboutdiv > .right2{
+   
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top: 8vh;
+    font-size: 1em;
+    line-height: 24px;
+    align-items: center;
+    margin-bottom: 5vh;
+   
+    
+  }
+  .aboutdiv p {
+    width: 40vw;
+    text-align: justify;
+    font-size: 1em;
+    
+   
   }
 }
 
