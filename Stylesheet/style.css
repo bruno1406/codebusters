@@ -161,6 +161,12 @@ body {
   justify-content: space-between;
 }
 
+.work-titlefeat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .featimg {
   background-image: url("/assets/woman.png");
   width: 90vw;
@@ -229,12 +235,12 @@ p {
 }
 
 .feat-btn {
-  width: 25vw;
-  height: 10vw;
+  width: 6rem;
+  height: 2rem;
   display: flex;
   align-self: flex-end;
   padding: 10px;
-  text-align: center;
+  /* text-align: right; */
   color: black;
   background-color: rgb(236, 145, 9);
   border-radius: 12px;
@@ -248,17 +254,22 @@ p {
 }
 
 .work-btn {
-  width: 25vw;
-  height: 10vw;
+  width: 6rem;
+  height: 2.5rem;
   display: flex;
   align-self: flex-end;
   padding: 10px;
-  /* text-align: right; */
   color: black;
   background-color: rgb(195, 117, 226);
   border-radius: 12px;
-  margin-bottom: 1vh;
+  margin-bottom: 1rem;
   border: 1px solid black;
+}
+
+.work-btn:hover {
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
 }
 
 footer {
@@ -332,6 +343,20 @@ footer > section {
   align-self: center;
 }
 
+.aboutdiv-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90vw;
+  align-self: center;
+}
+
+.aboutdiv-work > section {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
 .aboutdiv-img1 {
   width: 90vw;
   display: flex;
@@ -346,6 +371,14 @@ footer > section {
   width: 90vw;
 }
 
+.work-btn-display {
+  display: none;
+}
+
+.work-titlefeat > h1:nth-child(3) {
+  display: none;
+}
+
 /* 48em = 768px */
 
 @media (min-width: 500px) {
@@ -354,9 +387,19 @@ footer > section {
     color: black;
     font-size: 2.5rem;
   }
+
   body {
-    font-size: 28px;
+    font-size: 24px;
   }
+
+  .work-titlefeat > h1:first-child {
+    display: none;
+  }
+
+  .work-titlefeat > h1:nth-child(3) {
+    display: block;
+  }
+
   .header li {
     float: left;
   }
