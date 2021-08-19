@@ -170,9 +170,51 @@ body {
   align-self: center;
 }
 
+.workimg {
+  background-image: url("/assets/work1.jpg");
+  width: 90vw;
+  height: 20vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.workimg2 {
+  background-image: url("/assets/work2.jpg");
+  width: 90vw;
+  height: 20vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.workimg3 {
+  background-image: url("/assets/work3.jpg");
+  width: 90vw;
+  height: 20vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
 h1,
 p {
   text-align: center;
+}
+
+#workh2 {
+  text-align: left;
+  margin-left: 4vw;
+  margin-top: 20vh;
 }
 
 .menu {
@@ -203,6 +245,20 @@ p {
 .feat-btn:hover {
   background-color: cornflowerblue;
   color: white;
+}
+
+.work-btn {
+  width: 25vw;
+  height: 10vw;
+  display: flex;
+  align-self: flex-end;
+  padding: 10px;
+  /* text-align: right; */
+  color: black;
+  background-color: rgb(195, 117, 226);
+  border-radius: 12px;
+  margin-bottom: 1vh;
+  border: 1px solid black;
 }
 
 footer {
@@ -258,9 +314,10 @@ footer > section {
 }
 
 .menu > li > a {
-  background-color: rgb(97, 238, 32, 0.5);
+  background-color: rgba(58, 6, 248, 0.5);
   width: 25vw;
   text-align: center;
+  border-radius: 2px;
 }
 
 .aboutdiv {
