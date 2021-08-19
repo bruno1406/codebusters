@@ -349,6 +349,9 @@ footer > section {
 /* 48em = 768px */
 
 @media (min-width: 500px) {
+  .testbruno {
+    background-color: transparent;
+  }
   .menu > li > a {
     background-color: transparent;
     color: black;
