@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  background-image: url(./assets/bodyimg.png);
+  background-image: url(/assets/bodyimg.png);
   background-size: cover;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-  background-image: url(./assets/test.jpg);
+  background-image: url(/assets/test.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -196,7 +196,7 @@ body {
 }
 
 .featimg {
-  background-image: url("./assets/phoneig.png");
+  background-image: url(/assets/phoneig.png);
   width: 90vw;
   height: 30vh;
   background-size: cover;
@@ -207,7 +207,7 @@ body {
 }
 
 .workimg {
-  background-image: url("./assets/work1.jpg");
+  background-image: url(/assets/work1.jpg);
   width: 90vw;
   height: 20vh;
   background-size: cover;
@@ -219,7 +219,7 @@ body {
 }
 
 .workimg2 {
-  background-image: url("./assets/work2.jpg");
+  background-image: url(/assets/work2.jpg);
   width: 90vw;
   height: 20vh;
   background-size: cover;
@@ -231,7 +231,7 @@ body {
 }
 
 .workimg3 {
-  background-image: url("./assets/work3.jpg");
+  background-image: url(/assets/work3.jpg);
   width: 90vw;
   height: 20vh;
   background-size: cover;
@@ -308,7 +308,7 @@ p {
 
 footer {
   width: 100vw;
-  background-image: url("./assets/circle.png");
+  background-image: url(/assets/circle.png);
   background-size: cover;
 }
 
