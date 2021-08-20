@@ -406,13 +406,21 @@ footer > section {
 }
 
 .aboutdiv-img1 {
+  width: 80vw;
+  display: flex;
+  align-self: center;
+  display: block;
+  border-radius: 8px;
+  /* border: 2px solid rgb(255, 199, 255);
+  box-shadow: 2px 0 0.4em rgb(7, 3, 0); */
+}
+
+.aboutdiv-img2 {
   width: 90vw;
   display: flex;
   align-self: center;
   display: block;
   border-radius: 8px;
-  border: 2px solid rgb(255, 199, 255);
-  box-shadow: 2px 0 0.4em rgb(7, 3, 0);
 }
 
 .aboutdiv p {
@@ -456,6 +464,20 @@ footer > section {
       width: 100%;
     }
   } */
+
+  .header > .logo > h3 {
+    text-align: left;
+    vertical-align: middle;
+    display: inline;
+    font-family: Work Sans;
+    vertical-align: bottom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-shadow: 0px 4.6px 4.6px rgba(0, 0, 0, 0.25);
+  }
 
   .connect {
     font-size: 2rem;
@@ -579,6 +601,7 @@ footer > section {
     padding-right: 3rem;
     font-size: 18px;
     font-display: inherit;
+    text-align: justify;
   }
   .aboutdiv > .left > p {
     padding-left: 3rem;
