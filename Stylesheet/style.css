@@ -383,6 +383,16 @@ footer > section {
 /* 48em = 768px */
 
 @media (min-width: 829px) {
+  .titlefeat,
+  .titlefeat-p {
+    display: none;
+  }
+  .indexdiv {
+    margin-top: 30vh;
+    display: flex;
+    align-self: center;
+  }
+
   .div1 {
     display: none;
   }
@@ -391,6 +401,7 @@ footer > section {
     display: block;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-bottom: 96px;
     width: 90vw;
   }
@@ -416,6 +427,13 @@ footer > section {
   .div2-2 > h1 {
     display: flex;
     align-self: left;
+  }
+
+  .index-2-img {
+    width: 634px;
+    height: 476px;
+    border: 2px solid black;
+    border-radius: 4px;
   }
 
   .div-2-img {
