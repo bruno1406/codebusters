@@ -383,6 +383,37 @@ footer > section {
 /* 48em = 768px */
 
 @media (min-width: 829px) {
+  b {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 20vw;
+      color: red;
+    }
+
+    40% {
+      font-size: 500%;
+      color: blue;
+      margin-left: 40%;
+      width: 150%;
+    }
+
+    75% {
+      font-size: 700%;
+      color: white;
+      margin-left: 100%;
+      width: 150%;
+    }
+
+    to {
+      margin-left: 20vw;
+      width: 100%;
+    }
+  }
+
   .titlefeat,
   .titlefeat-p {
     display: none;
