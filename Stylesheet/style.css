@@ -284,6 +284,10 @@ footer > section {
   width: 100vw;
 }
 
+#foot {
+  padding-top: 40px;
+}
+
 .mediumfoot {
   filter: contrast(10%);
   width: 30vw;
@@ -303,12 +307,13 @@ footer > section {
 }
 
 .connect {
-  width: auto;
-  max-width: 100%;
+  width: 100vw;
   text-align: center;
   font-style: normal;
-  padding: 8px;
+  padding: 0;
+  margin: 0;
   color: white;
+  box-sizing: border-box;
 }
 
 #divOneFoot {
@@ -317,7 +322,7 @@ footer > section {
   stroke: #5e97ff;
   stroke-opacity: 1;
   fill: #000000;
-  width: 100%;
+  width: 100vw;
   position: relative;
   grid-area: 18 / 1 / 23 / 2;
   justify-self: start;
@@ -347,7 +352,6 @@ footer > section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 90vw;
   align-self: center;
 }
 
@@ -355,6 +359,7 @@ footer > section {
   display: flex;
   flex-direction: column;
   align-self: center;
+  width: 90vw;
 }
 
 .aboutdiv-img1 {
@@ -371,35 +376,63 @@ footer > section {
   width: 90vw;
 }
 
-.work-btn-display {
-  display: none;
-}
-
-.work-titlefeat > h1:nth-child(3) {
+.div2 {
   display: none;
 }
 
 /* 48em = 768px */
 
-@media (min-width: 500px) {
- 
+@media (min-width: 829px) {
+  .div1 {
+    display: none;
+  }
+
+  .div2 {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+    width: 90vw;
+  }
+
+  .div2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 32px;
+    box-sizing: border-box;
+  }
+
+  .div2-2 > button {
+    display: flex;
+    align-self: center;
+  }
+
+  .div2-2 > p {
+    text-align: justify;
+  }
+
+  .div2-2 > h1 {
+    display: flex;
+    align-self: left;
+  }
+
+  .div-2-img {
+    width: 762px;
+    height: 429px;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
   .menu > li > a {
     background-color: transparent;
     color: black;
-    width:15vw;
+    width: 15vw;
     font-size: 2.5rem;
   }
 
   body {
-    font-size: 24px;
-  }
-
-  .work-titlefeat > h1:first-child {
-    display: none;
-  }
-
-  .work-titlefeat > h1:nth-child(3) {
-    display: block;
+    font-size: 1.5rem;
   }
 
   .header li {
@@ -425,83 +458,72 @@ footer > section {
   .mediumfoot {
     width: 20rem;
   }
-  .header.logo{
-  font-size: 2em;
-  padding: 20px 30px;
+  .header.logo {
+    font-size: 2em;
+    padding: 20px 30px;
   }
-  .logo{
+  .logo {
     margin-top: 2vh;
     height: 7vh;
   }
-   .aboutdiv > .right1{
-   
+  .aboutdiv > .right1 {
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     justify-content: space-around;
     margin-top: 5vh;
     font-size: 1em;
     line-height: 24px;
     align-items: center;
-   
   }
-  .aboutdiv > .right1 > p{
+  .aboutdiv > .right1 > p {
     padding-right: 3rem;
     font-size: 18px;
-    font-display:inherit;
-  
+    font-display: inherit;
   }
-  .aboutdiv > .left > p{
+  .aboutdiv > .left > p {
     padding-left: 3rem;
     font-size: 18px;
-    font-display:inherit;
-  
+    font-display: inherit;
   }
-  .aboutdiv > .right2 > p{
+  .aboutdiv > .right2 > p {
     padding-right: 3rem;
     font-size: 18px;
-    font-display:inherit;
-  
+    font-display: inherit;
   }
-  .aboutdiv > .right1 > img{
-    height: 350px ;
+  .aboutdiv > .right1 > img {
+    height: 350px;
     width: 350px;
   }
-   .aboutdiv > .right2 > img{
-     height: 350px ;
-     width: 350px;
-   }
-   .aboutdiv > .left > img{
-    height: 350px ;
+  .aboutdiv > .right2 > img {
+    height: 350px;
     width: 350px;
   }
- 
-  .aboutdiv > .left{
+  .aboutdiv > .left > img {
+    height: 350px;
+    width: 350px;
+  }
+
+  .aboutdiv > .left {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     margin-top: 8vh;
     font-size: 1em;
     line-height: 24px;
     align-items: center;
-   
   }
-  .aboutdiv > .right2{
-   
+  .aboutdiv > .right2 {
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     margin-top: 8vh;
     font-size: 1em;
     line-height: 24px;
     align-items: center;
     margin-bottom: 5vh;
-   
-    
   }
   .aboutdiv p {
     width: 40vw;
     text-align: justify;
     font-size: 1em;
-    
-   
   }
 }
 
