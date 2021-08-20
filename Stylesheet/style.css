@@ -8,9 +8,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
-  background-image: url(/assets/bodyimg.png);
-  background-size: cover;
+  background-color: rgb(247, 199, 199);
 }
 
 .container {
@@ -71,11 +69,14 @@ body {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding: 10px 10px 10px;
   text-decoration: none;
 }
 
 .logo {
+  background-color: rgb(235, 97, 17, 0.3);
+  padding: 1px;
+  border-radius: 5rem;
   margin: 0;
   margin-top: 1vh;
   padding: 0;
@@ -159,7 +160,7 @@ body {
 }
 
 .icons {
-  width: 15vw;
+  width: 10vw;
 }
 
 .titlefeat {
@@ -308,7 +309,7 @@ p {
 
 footer {
   width: 100vw;
-  background-image: url("/assets/circle.png");
+  background-image: url("/assets/semicircle.png");
   background-size: cover;
 }
 
@@ -332,7 +333,7 @@ footer > section {
   text-align: center;
   font-style: italic;
   padding: 8px;
-  color: #bf5f54;
+  color: white;
   margin: 0;
 }
 
@@ -554,13 +555,17 @@ footer > section {
     vertical-align: top;
   }
 
-  .icons:hover {
+  <<<<<<< HEAD .icons:hover {
     filter: contrast(0.1);
   }
 
-  .header.logo {
+  ======= .mediumfoot {
+    width: 20rem;
+  }
+  >>>>>>>545de03c373a4cebf9af799c57fdab35f042f197 .header.logo {
     font-size: 2em;
     padding: 20px 30px;
+    width: 15vw;
   }
   .logo {
     margin-top: 2vh;
